@@ -169,6 +169,7 @@ header ul li span.user-name {
 
 .page-wrapper {
     min-height: 85%;
+    padding-bottom: 200px;
 }
 
 /* home page container */
@@ -182,6 +183,9 @@ header ul li span.user-name {
     text-align: center;
     background-image: url(../images/Video-Chat-Help-To-Improve-Digital-Banking-System.png);
     z-index: 10;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 /* account page containers */
@@ -217,7 +221,7 @@ header ul li span.user-name {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     grid-template-columns: auto;
 }
 
