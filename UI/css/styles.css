@@ -340,7 +340,7 @@ header ul li span.user-name {
     background-color: white;
     color: #024959;
     border: solid #024959 1px;
-    box-shadow: #cccccc 5px 5px;
+    box-shadow: #cccccc 5px 5px 7px;
     top: 100px;
 }
 
