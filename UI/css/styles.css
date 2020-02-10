@@ -195,6 +195,10 @@ header ul li span.user-name {
     grid-template-columns: auto auto;
 }
 
+.pull-right {
+    float: right;
+}
+
 /* individual account Number */
 .account {
     display: grid;
