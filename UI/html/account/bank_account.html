@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+
+    <!-- Custom Styling -->
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css">
+    <title>Account | Papel</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1 class="logo-text">
+                Papel
+            </h1>
+        </div>
+        <i class="fa fa-bars menu-toggle" onclick="menuToggler()"></i>
+        <ul class="nav" id="nav">
+            <li>
+                <a href="#">
+                    <i class="fa fa-th"></i>
+                    <span class="user-name">More Options</span>
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+                <ul id="dropdown-nav">
+                    <li><a href="./bank_account.html" class="logout">Bank accounts</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    <span class="user-name">Uwase Aline</span>
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+                <ul id="dropdown-nav">
+                    <li><a href="../account/user/users.html" class="logout">Users</a></li>
+                    <li><a href="../../../index.html" class="logout">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Page wrapper -->
+    <div class="page-wrapper">
+        <div class="container-account">
+            <div class="account-title">
+
+                <h2>
+                    <a href="./index.html" class="btn btn-sm btn-block">Back</a> Bank Accounts
+                </h2>
+            </div>
+        </div>
+        <hr>
+        <div class="transactions">
+            <div>
+                <table class="transactions-table">
+                    <thead>
+                        <th>#</th>
+                        <th>Account NO</th>
+                        <th>Beneficiary</th>
+                        <th>Type</th>
+                        <th>Created on</th>
+                        <th>Options</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>29910</td>
+                            <td>Uwase Aline</td>
+                            <td>Current</td>
+                            <td>12-02-2017</td>
+                            <td>
+                                <a href="./admin/view_account.html">view</a> |
+                                <a href="#"> delete</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>29340</td>
+                            <td>Ndayisaba Sylver</td>
+                            <td>Savings</td>
+                            <td>11-05-2018</td>
+                            <td>
+                                <a href="./admin/view_account.html">view</a> |
+                                <a href="#"> delete</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>35910</td>
+                            <td>Ivan Ndahiro</td>
+                            <td>Saving</td>
+                            <td>11-05-2018</td>
+                            <td>
+                                <a href="./admin/view_account.html">view</a> |
+                                <a href="#"> delete</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>35561</td>
+                            <td>Muhire Aimable</td>
+                            <td>Current</td>
+                            <td>11-05-2018</td>
+                            <td>
+                                <a href="./admin/view_account.html">view</a> |
+                                <a href="#"> delete</a></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <div>
+                    <a href="#" class="btn btn-block">More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-content">
+
+        </div>
+
+        <div class="footer">
+            <p>&copy; Papel 2020 | Ndayisaba Sylver</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../../js/scripts.js"></script>
+</body>
+
+</html>

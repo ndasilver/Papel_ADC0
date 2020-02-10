@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+
+    <!-- Custom Styling -->
+    <link rel="stylesheet" type="text/css" href="../../../css/styles.css">
+    <title>Account | Papel</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1 class="logo-text">
+                Papel
+            </h1>
+        </div>
+        <i class="fa fa-bars menu-toggle" onclick="menuToggler()"></i>
+        <ul class="nav" id="nav">
+            <li>
+                <a href="#">
+                    <i class="fa fa-th"></i>
+                    <span class="user-name">More Options</span>
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+                <ul id="dropdown-nav">
+                    <li><a href="../../../../index.html" class="logout">Bank accounts</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    <span class="user-name">Uwase Aline</span>
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+                <ul id="dropdown-nav">
+                    <li><a href="../user/users.html" class="logout">Users</a></li>
+                    <li><a href="../../../index.html" class="logout">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Page wrapper -->
+    <div class="page-wrapper">
+        <div class="container-account">
+            <div class="account-title">
+
+                <h2>
+                    <a href="./index.html" class="btn btn-sm">
+                        <i class="fa fa-user-plus" aria-hidden="true"></i> Add
+                        User</a>
+                    <span class="pull-right">Users</span>
+                </h2>
+            </div>
+        </div>
+        <hr>
+        <div class="transactions">
+            <div>
+                <table class="transactions-table">
+                    <thead>
+                        <th>#</th>
+                        <th>F. Name</th>
+                        <th>S. Name</th>
+                        <th>email</th>
+                        <th>Role/Type</th>
+                        <th>Status</th>
+                        <th>Options</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Uwase</td>
+                            <td>Aline</td>
+                            <td>ualine@gmail.com</td>
+                            <td>User</td>
+                            <td>Active</td>
+                            <td>
+                                <a href="#">Desable</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Ndahiro</td>
+                            <td>Ivan</td>
+                            <td>ivan@gmail.com</td>
+                            <td>Staff</td>
+                            <td>Activated</td>
+                            <td>
+                                <a href="#">Desable</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Umutoni</td>
+                            <td>Aliane</td>
+                            <td>ualine@gmail.com</td>
+                            <td>User</td>
+                            <td>Desactivated</td>
+                            <td>
+                                <a href="#">Activate</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>Ndayisaba</td>
+                            <td>Sylver</td>
+                            <td>ndasilver@gmail.com</td>
+                            <td>Admin</td>
+                            <td>Active</td>
+                            <td>
+                                <a href="#">Desable</a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <div>
+                    <a href="#" class="btn btn-block">More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-content">
+
+        </div>
+
+        <div class="footer">
+            <p>&copy; Papel 2020 | Ndayisaba Sylver</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../../../js/script.js"></script>
+</body>
+
+</html>
