@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+
+    <!-- Custom Styling -->
+    <link rel="stylesheet" type="text/css" href="../../../css/styles.css">
+    <title>New Account | Papel</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1 class="logo-text">
+                Papel
+            </h1>
+        </div>
+        <i class="fa fa-bars menu-toggle" onclick="menuToggler()"></i>
+        <ul class="nav" id="nav">
+            <li>
+                <a href="#">
+                    <i class="fa fa-th"></i>
+                    <span class="user-name">More Options</span>
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+                <ul id="dropdown-nav">
+                    <li><a href="../bank_account.html" class="logout">Bank accounts</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    <span class="user-name">Uwase Aline</span>
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+                <ul id="dropdown-nav">
+                    <li><a href="../../account/user/users.html" class="logout">Users</a></li>
+                    <li><a href="../../../../index.html" class="logout">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Page wrapper -->
+    <div class="page-wrapper">
+        <div class="container-account">
+            <div class="account-title">
+                <h1>Papel Account</h1>
+            </div>
+        </div>
+        <hr>
+        <div class="create-account">
+            <form action="#" method="post">
+                <h2 class="form-title">Create Admin/ Staff</h2>
+
+                <div>
+                    <label for="role">Role</label>
+                    <select name="type" class="text-input" id="role">
+                        <option selected disabled>Select Type</option>
+                        <option value="1">Admin</option>
+                        <option value="2">Staff</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" placeholder="First Name" id="firstName" class="text-input">
+                </div>
+                <div>
+                    <label for="secondName">Second Name</label>
+                    <input type="text" name="secondName" id="secondName" placeholder="Second Name" class="text-input">
+                </div>
+
+                <div>
+                    <label for="secondName">Email</label>
+                    <input type="email" name="email" id="secondName" placeholder="example@email.com" class="text-input">
+                </div>
+
+                <div>
+                    <label for="secondName">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Password" class="text-input">
+                </div>
+
+                <div>
+                    <label for="secondName">Confirm password</label>
+                    <input type="password" name="confirm_password" id="password" placeholder="confirm password"
+                        class="text-input">
+                </div>
+                <div>
+                    <button type="submit" name="submit-button" class="btn btn-big btn-block">Create</button>
+                </div>
+
+                <p><a href="../user/users.html">Cancel.</a></p>
+
+            </form>
+
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-content">
+
+        </div>
+
+        <div class="footer">
+            <p>&copy; Papel 2020 | Ndayisaba Sylver</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../../js/scripts.js"></script>
+</body>
+
+</html>
