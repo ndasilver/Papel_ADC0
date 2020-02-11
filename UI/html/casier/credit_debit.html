@@ -12,7 +12,7 @@
 
     <!-- Custom Styling -->
     <link rel="stylesheet" type="text/css" href="../../css/styles.css">
-    <title>Home | Papel</title>
+    <title>New Account | Papel</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
                     <span class="user-name">More Options</span>
                     <i class="fa fa-chevron-down"></i>
                 </a>
-                <ul id="dropdown-nav">
+                <ul id="dropdown-nav" class="dropdown-nav">
                     <li><a href="./bank_account.html" class="logout">Bank accounts</a></li>
                 </ul>
             </li>
@@ -41,9 +41,8 @@
                     <span class="user-name">Uwase Aline</span>
                     <i class="fa fa-chevron-down"></i>
                 </a>
-                <ul id="dropdown-nav">
-                    <li><a href="../account/user/users.html" class="logout">Users</a></li>
-                    <li><a href="../../../index.html" class="logout">Logout</a></li>
+                <ul id="dropdown-nav" class="dropdown-nav">
+                    <li><a href="../index.html" class="logout">Logout</a></li>
                 </ul>
             </li>
         </ul>
@@ -51,24 +50,44 @@
 
     <!-- Page wrapper -->
     <div class="page-wrapper">
-        <div class="container-account-cashier">
+        <div class="container-account">
             <div class="account-title">
                 <h1>Papel Cashier</h1>
             </div>
         </div>
         <hr>
+        <div class="create-account">
+            <form action="./home.html" method="post">
+                <div>
+                    <div>
+                        <label for="secondName">Account No</label>
+                        <div>
+                            <input type="number" name="account_no" id="account_no" placeholder="Please enter account no"
+                                class="text-input-cashier">
+                            <button type="submit" name="submit-button" class="text-button-cashier">Fetch</button>
+                        </div>
+                        <div>
+                            <h5>Beneficiary: <span>Ndayisaba Sylver</span></h5>
+                        </div>
+                        <div>
+                            <label for="username">Transaction type</label>
+                            <select name="type" class="text-input">
+                                <option selected disabled>Select Type</option>
+                                <option value="1">Debit</option>
+                                <option value="2">Credit</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="secondName">Amount</label>
+                            <input type="number" name="amount" id="secondName" placeholder="Enter amount"
+                                class="text-input">
+                        </div>
+                    </div>
 
-        <div class="account-card-cashier">
-            <a href="./credit_debit.html">
-                <div class="card-container">
-                    <h4><b>Debit/ Credit an Account</b></h4>
-                    <h4>
-                        <b>
-                            <i class="fa fa-plus"></i>
-                        </b>
-                    </h4>
                 </div>
-            </a>
+                <p><a href="./cashier.html">Cancel.</a></p>
+
+            </form>
 
         </div>
     </div>
