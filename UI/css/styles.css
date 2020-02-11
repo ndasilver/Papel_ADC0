@@ -265,7 +265,7 @@ header ul li span.user-name {
 /* create account div */
 .create-account {
     margin: 30px auto;
-    padding: 10px 400px;
+    width: 47%;
 }
 
 .footer {
