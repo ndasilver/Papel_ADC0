@@ -592,7 +592,7 @@ tr:nth-child(even) {
 }
 
 .home-button {
-    top: 70%;
+    top: 80%;
     border: 1px solid #62c8cc;
     position: absolute;
     margin: 0 0 0 40%;
