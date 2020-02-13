@@ -1,5 +1,3 @@
-const express = require("express");
-const app = express();
 const server = require("./config/server");
 // importing routes file
 const appRouter = require("./routes/routes.js");
@@ -9,4 +7,3 @@ app.use("/api/v1", appRouter);
 
 app.listen(server.port, () => {
     console.log(`serving on port ${server.port}`);
-});
