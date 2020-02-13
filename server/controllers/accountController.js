@@ -11,7 +11,7 @@ let accountRegisterController = (req, res) => {
 let transactionRegisterController = (req, res) => {
     res.send("controller for registering debit or credit");
 };
-// Get all the transactions for a particular account
+// Get all the transactions for a particular account.
 let partcAccountTransactionsController = (req, res) => {
     res.send("response");
 };
