@@ -242,7 +242,7 @@ header ul li span.user-name {
 
 
 
-.account-card .card-container i {
+.card-container i {
     font-size: 80px;
 
 }
@@ -250,7 +250,11 @@ header ul li span.user-name {
 .account-card a {
     text-decoration: none;
     color: #00262e;
-    ;
+}
+
+.account-card-cashier a {
+    text-decoration: none;
+    color: #00262e;
 }
 
 .card-container:hover {
@@ -537,6 +541,42 @@ tr:nth-child(even) {
 
 .recents-container .rec {
     background-color: white;
+}
+
+.container-account-cashier {
+    padding: 70px 40px 0 40px;
+}
+
+.account-card-cashier {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: 10px auto;
+    background-color: #c3d7db;
+    color: #00262e;
+    text-align: center;
+}
+
+.text-input-cashier {
+    padding: .7rem 1rem;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    color: #444;
+    width: 80%;
+    line-height: 1.5rem;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.text-button-cashier {
+    padding: .7rem 1rem;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    color: #444;
+    line-height: 1.5rem;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    width: 18%;
 }
 
 /* Media Querries */
