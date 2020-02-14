@@ -600,8 +600,8 @@ tr:nth-child(even) {
     width: 326px;
     text-align: center;
     text-decoration: none;
-    color: #1c1c1c;
-    background-color: #FFC8A6;
+    color: #fafafa;
+    background-color: #0689a5;
     box-shadow: 3px 4px 5px black;
     z-index: 10;
 }
