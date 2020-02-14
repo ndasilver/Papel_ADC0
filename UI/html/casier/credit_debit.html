@@ -32,7 +32,7 @@
                     <i class="fa fa-chevron-down"></i>
                 </a>
                 <ul id="dropdown-nav" class="dropdown-nav">
-                    <li><a href="./bank_account.html" class="logout">Bank accounts</a></li>
+                    <li><a href="../account/bank_account.html" class="logout">Bank accounts</a></li>
                     <li><a href="../casier/credit_debit.html" class="logout">Debit/Credit</a></li>
                 </ul>
             </li>
@@ -54,26 +54,43 @@
     <div class="page-wrapper">
         <div class="container-account">
             <div class="account-title">
-                <h1>Papel Account</h1>
+                <h1>Papel Cashier</h1>
             </div>
         </div>
         <hr>
         <div class="create-account">
-            <form action="./home.html" method="post">
-                <h2 class="form-title">Create a New Bank Account</h2>
-
+            <form action="#" method="post">
                 <div>
-                    <label for="username">Type</label>
-                    <select name="type" class="text-input">
-                        <option selected disabled>Select Type</option>
-                        <option value="1">Savings</option>
-                        <option value="2">Current</option>
-                    </select>
+                    <div>
+                        <label for="secondName">Account No</label>
+                        <div>
+                            <input type="number" name="account_no" id="account_no" placeholder="Please enter account no"
+                                class="text-input-cashier">
+                            <button type="submit" name="submit-button" class="text-button-cashier">Fetch</button>
+                        </div>
+                        <div>
+                            <h5>Beneficiary: <span>Ndayisaba Sylver</span></h5>
+                        </div>
+                        <div>
+                            <label for="username">Transaction type</label>
+                            <select name="type" class="text-input">
+                                <option selected disabled>Select Type</option>
+                                <option value="1">Debit</option>
+                                <option value="2">Credit</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="secondName">Amount</label>
+                            <input type="number" name="amount" id="secondName" placeholder="Enter amount"
+                                class="text-input">
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <button href="#" class="btn btn-block btn-big">Submit</button>
                 </div>
 
-                <div>
-                    <button type="submit" name="submit-button" class="btn btn-big btn-block">Create</button>
-                </div>
 
             </form>
 

@@ -8,5 +8,6 @@ const pool = new Pool({
 });
 
 module.exports = {
-  port
+  port,
+  pool
 };
