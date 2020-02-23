@@ -1,8 +1,8 @@
-const server = require("./config/server");
+const server = require("./server/config/server");
 const express = require("express");
 const app = express();
 // importing routes file
-const appRouter = require("./routes/routes");
+const appRouter = require("./server/routes/routes");
 const bodyParser = require("body-parser");
 
 app.use(bodyParser.json())
